@@ -1,0 +1,18 @@
+{
+  "name": "memories-server",
+  "version": "1.0.0",
+  "description": "For OrdinaryMemory",
+  "main": "index.js",
+  "repository": "https://github.com/gutrse3321/memories-server.git",
+  "author": "tomo(gutrse3321)",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app/app.js"
+  },
+  "dependencies": {
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.4.0",
+    "mongoose": "^5.0.17"
+  }
+}
