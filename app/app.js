@@ -15,6 +15,24 @@ const con = mongoose.connection
 con.on('error', console.error.bind(console, 'Database connection error'))
 con.once('open', () => {
   console.log('Database is connection !')
+  //定义一个schema
+  // let Schema = mongoose.Schema({
+  //   Hello: String
+  // })
+  // //继承一个schema
+  // let Model = mongoose.model("test",Schema)
+
+  // // let apple = new Model({
+  // //     Hello: 'apple'
+  // // });
+
+  // // apple.save((err,apple)=>{
+  // //   if(err) return console.log(err);
+  // // });
+  // //查找数据
+  // Model.find((err,data)=>{
+  //     console.log(data)
+  // })
 })
 
 // 打印请求方法.url所花费的时间
